@@ -1,0 +1,15 @@
+img {
+    border-radius: 90%;
+    width: 300px;
+}
+h1 {
+    color: rebeccapurple;
+    text-align: center;
+}
+.pets {
+    width: 350px;
+    display: inline-block;
+}
+main {
+    text-align: center;
+}
