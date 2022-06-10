@@ -1,0 +1,14 @@
+body {
+    background-color: brown;
+}
+table {
+    background-color: darkgrey;
+    outline 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    font-size: large;
+    margin: 125%;
+    text-align: center;
+}

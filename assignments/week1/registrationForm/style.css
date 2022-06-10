@@ -1,0 +1,20 @@
+/* What is A + B in CSS */
+
+/* Default colors */
+body {
+    --text-color: #222;
+    --bkg-color: #fff;
+  }
+  /* Dark theme colors */
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #121212;
+  }
+
+h1 {
+    background-color: blueviolet;
+    color: white;
+}
+* {
+    outline: 1px solid red;
+}
