@@ -1,0 +1,29 @@
+.nav {
+    height: 50px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: 'Roboto';
+    margin: 0 auto;
+    display: flex;
+}
+.nav-title {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.nav-links {
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.btn {
+    height: 25px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: lightblue;
+    margin: 20px;
+}
+.active {
+    color: white;
+}
