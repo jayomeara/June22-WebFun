@@ -1,0 +1,29 @@
+* {
+    border: 2px, solid, black;
+}
+.main {
+    width: 600;
+    height: 1800;
+    background-color: silver;
+    align-items: center;
+    padding: 20px;
+}
+.top {
+    margin: auto;
+}
+img.octocat {
+    height: 200px;
+}
+.firstBox {
+    height: 240px;
+    background-color: lightblue;
+    display: flexbox;
+    justify-content: space-evenly;
+}
+.boxes {
+    margin: 10px;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
