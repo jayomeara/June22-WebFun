@@ -18,6 +18,7 @@ img.octocat {
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .secondBox {
     /* height: 240px;
@@ -26,6 +27,7 @@ img.octocat {
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    flex-wrap: wrap;
 }
 .thirdBox {
     /* height: 240px;
@@ -34,4 +36,5 @@ img.octocat {
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
+    flex-wrap: wrap;
 }
