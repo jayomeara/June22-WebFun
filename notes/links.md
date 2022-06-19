@@ -3,3 +3,5 @@ Class Links: https://docs.google.com/spreadsheets/d/15tGqI33T8dopkQpdPPcyZb_ABRQ
 Css resources: https://helper.beedev-services.com/fundamentals/flexbox.html
 
 Flexbox Playground: https://codepen.io/dojo24/full/BaYMdpp
+
+CSS Almanac: https://css-tricks.com/almanac/properties/j/justify-content/
