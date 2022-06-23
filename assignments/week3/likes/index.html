@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Pet Shelter</title>
+</head>
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <div class="headline"><h2>Your Feed</h2></div>
+    <main>
+        <div class="left">
+            <div class="avatar">
+                <img src="#" alt="Avatar"><br>
+                <a href="#">Add your avatar</a><br>
+                <h4>Jane Doe</h4>
+            </div>
+        </div> 
+        <div class="right">
+            <div class="profileFlex">
+            <div class="petProfile">
+                <div class="profileText">
+                    <h1>Pepper</h1>
+                    <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+                </div>
+                <div class="counter">
+                    <p id="pepperCount">3 Petting(s)</p>
+                    <button class="petButton" onclick="add3()">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="petProfile2">
+                <div class="profileText">
+                    <h1>Bruce</h1>
+                    <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                </div>
+                <div class="counter">
+                    <p id="bruceCount">5 Petting(s)</p>
+                    <button class="petButton" onclick="add2()">Pet Bruce</button>
+                </div>
+            </div>
+            <div class="petProfile">
+                <div class="profileText">
+                    <h1>Oscar</h1>
+                    <p>Oscar is a bright, energetic and friendly. He is looking for a good home.</p>
+                </div>
+                <div class="counter">
+                    <p id="oscarCount">8 Petting(s)</p>
+                    <button class="petButton" onclick="add1()">Pet Oscar</button>
+                </div>
+            </div>
+            </div>
+        </div>  
+    </main>
+<script src="./scripts/scripts.js"></script> 
+</body>
+</html>
