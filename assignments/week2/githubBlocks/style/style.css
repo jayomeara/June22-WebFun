@@ -1,0 +1,40 @@
+.main {
+    background-color: silver;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+h1 {
+    margin-bottom: 20px;
+}
+img.octocat {
+    height: 200px;
+    margin: 20px;
+}
+.firstBox {
+    /* height: 240px;
+    width: 600; */
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.secondBox {
+    /* height: 240px;
+    width: 600; */
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.thirdBox {
+    /* height: 240px;
+    width: 600; */
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    flex-wrap: wrap;
+}

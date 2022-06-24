@@ -1,0 +1,1 @@
+• Write out code before building functions. aka Psudocode
