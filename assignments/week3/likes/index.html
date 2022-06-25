@@ -14,13 +14,13 @@
     </header>
     <div class="headline"><h2>Your Feed</h2></div>
     <main>
-        <div class="left">
+        <!-- <div class="left"> -->
             <div class="avatar">
                 <img src="#" alt="Avatar"><br>
                 <a href="#">Add your avatar</a><br>
                 <h4>Jane Doe</h4>
             </div>
-        </div> 
+        <!-- </div>  -->
         <div class="right">
             <div class="profileFlex">
             <div class="petProfile">
@@ -29,9 +29,10 @@
                     <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
                 </div>
                 <div class="counter">
-                    <p id="pepperCount">3 Petting(s)</p>
-                    <button class="petButton" onclick="add3()">Pet Pepper</button>
+                    <span>3</span> Likes(s)
+                    <button onclick="addOne(this)" type="button">Like</button>
                 </div>
+            
             </div>
             <div class="petProfile2">
                 <div class="profileText">
@@ -39,8 +40,8 @@
                     <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
                 </div>
                 <div class="counter">
-                    <p id="bruceCount">5 Petting(s)</p>
-                    <button class="petButton" onclick="add2()">Pet Bruce</button>
+                    <span>3</span> Like(s)
+                    <button onclick="addOne(this)" type="button">Like</button>
                 </div>
             </div>
             <div class="petProfile">
@@ -49,8 +50,8 @@
                     <p>Oscar is a bright, energetic and friendly. He is looking for a good home.</p>
                 </div>
                 <div class="counter">
-                    <p id="oscarCount">8 Petting(s)</p>
-                    <button class="petButton" onclick="add1()">Pet Oscar</button>
+                    <span>8</span> Like(s)
+                    <button onclick="addOne(this)" type="button">Like</button>
                 </div>
             </div>
             </div>

@@ -9,7 +9,7 @@ body {
     width: 1080px;
   }
 header {
-    background-color: grey;
+    background-color: black;
     /* align-items: center; */
     height: auto;
     padding: 10px;
@@ -37,7 +37,9 @@ h1 {
 }
 button {
     background-color: lightblue;
-    height: 50%;
+    width: 5em;
+    height: 2em;
+    margin-left: 10px;
 }
 .profileFlex {
     margin: auto;
@@ -70,8 +72,10 @@ main {
 }
 .counter {
     /* justify-content: right; */
+    display: flex;
     padding-top: 25px;
     text-align: right;
+
 }
 .profilePicture {
     width: 150px;
@@ -99,11 +103,13 @@ main {
     border-radius: 5px;
 }
 .avatar {
+    display: flex;
+    flex-direction: column;
     height: 300px;
     width: 150px;
     border: 5px solid black;
     margin: 25px;
-    align-content: space-evenly;
+    justify-content: space-evenly;
 }
 .headline {
     display: flex;
