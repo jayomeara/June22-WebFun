@@ -1,7 +1,7 @@
 console.log("page loaded...");
 
 var requestSpan = document.querySelector("#requests");
-var connectionSpan = document.querySelector("#connections");
+// var connectionSpan = document.querySelector("#connections");
 var username = document.querySelector("#name");
 
 function changeName(element) {
@@ -15,8 +15,8 @@ function accept(id) {
     // connectionSpan.innerText++;
 }
 
-function ignore(id) {
-    var element = document.querySelector(id);
-    element.remove();
-    requestSpan.innerText--;
-}
+// function ignore(id) {
+//     var element = document.querySelector(id);
+//     element.remove();
+//     requestSpan.innerText--;
+// }
