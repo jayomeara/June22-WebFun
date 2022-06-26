@@ -10,16 +10,20 @@ function accept() {
     element.remove();
 }
 
-// id's are labeled temp1, temp2 ect. Start of function grabs all of the id's of the temp areas.
-// 
 
 function convert(element) {
+    // passes in F or C
     console.log(element.value);
+    // logs F or C value
     for(var i=1; i<9; i++) {
         var tempSpan = document.querySelector("#temp" + i);
+            // id's are labeled temp1, temp2 ect. Start of function grabs all of the id's of the temp areas.
         var tempVal = parseInt(tempSpan.innerText);
+        // The parseInt method parses a value as a string and returns the first integer.
+        // grabs the text of the tempSpan which is the temp info
         if(element.value == "°C") {
             tempSpan.innerText = f2c(tempVal);
+            // The innerText property sets or returns the text content of an element.
         } else {
             tempSpan.innerText = c2f(tempVal);
         }
