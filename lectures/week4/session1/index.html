@@ -4,16 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/styles.less">
     <title>Document</title>
+    <style>
+        img {
+            max-width: 200px;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <a href="../../../index.html" style="font-size: 2em; background-color: white; color: black;">Main Site</a>
     </nav>
-    <h1>Open console to see results</h1>
-    <button onclick='loop(arr)'>Click to activate loop fucntion</button>
-    <button onclick='positive(numbers)'>The Positive numbers only please</button>
-    <script src="./main.js"></script>
+    <h1>The Tune we pulled was: <span id='witchHazel'></span></h1>
+    <span id="taz"></span>
+    <div id="loop"></div>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
